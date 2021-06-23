@@ -29,3 +29,7 @@ img{
 h2{
     padding-bottom: 2%;
 }
+
+p >span{
+    background-color: yellow;
+}
