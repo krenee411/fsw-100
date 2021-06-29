@@ -1,0 +1,66 @@
+
+.navbar{
+    position: fixed;
+   font-size: 150%;
+ } 
+
+body{
+    background-color: blueviolet;
+}
+
+.header{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 200%;
+}
+
+.card{
+    background-color:rgb(161, 80, 161);
+    margin: 15%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+   box-sizing: content-box;
+}
+
+.img1{
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.card1{
+     background-color: violet;
+    margin: 15%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.img2{
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.card2{
+    background-color:thistle;
+   margin: 15%;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   text-align: center;
+   box-sizing: content-box;
+}
+
+.img3{
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+} 
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
