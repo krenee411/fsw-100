@@ -1,0 +1,46 @@
+body {
+    font-family: 'Dancing SCript', serif;
+    font-size: 48px;
+  }
+  .nav{
+        position: fixed;
+
+  }
+ 
+ header{
+     text-align: center;
+     font-size: 150px ;
+    text-shadow: 4px 3px silver;
+   
+ }
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  body{
+      background-color: seagreen;
+  }
+ a{
+     text-decoration: none;
+ }
+
+
+ ul{
+    margin-right: 15%;
+    margin-left: 15%;
+
+ }
+ table{
+     border: black solid 4px;
+     
+  }
+ 
+ td{
+     border: black solid 2px;
+ }
+ main > span{
+     font-style: Bold;
+ }
