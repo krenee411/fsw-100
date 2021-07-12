@@ -1,0 +1,71 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+} 
+
+.d1{
+    grid-column: 1/1;
+    border: 2px solid black;
+    background-color: gray;
+}
+.d1:hover{
+    background-color: blue;
+    border: 4px dashed green;
+}
+.d2{
+    grid-column: 2/2;
+    border: 2px solid black;
+    background-color: gray;
+}
+.d2:hover{
+    height: 200px;
+    background-color: purple;
+    border-radius: 50%;
+}
+.d3{
+    grid-column: 3/3;
+    border: 2px solid black;
+    background-color: gray;
+}
+.d3:hover{
+background-color: red;
+ font-size: 70px;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.d4{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    border: 2px solid black;
+    background-color: gray;
+}
+.d4:hover{
+    background-color: pink;
+    border-top: 6px dashed purple;
+    border-bottom: 6px dashed blue;
+}
+.d5{
+    grid-column: 2/2;
+    grid-row: 2/3;
+    border: 2px solid black;
+    background-color: gray;
+}
+.d5:hover{
+    opacity: 0.5;
+
+}
+.d6{
+    grid-column: 3/3;
+    grid-row: 2/3;
+    border: 2px solid black;
+    background-color: gray;
+}
+.d6:hover{
+text-decoration: underline;
+text-decoration-color: darkred;
+background-color:rosybrown;
+font-size: 50px;
+
+}
+
