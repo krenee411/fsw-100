@@ -1,0 +1,150 @@
+body{
+    background: url(blood.webp);
+    background-repeat:initial;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+img{
+    float: left;
+    padding-right: 4px;
+    
+}
+.card{
+    margin: 15%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align:center;
+    box-sizing:content-box;
+    height: fit-content;
+    border: double;
+    background-color: rgb(103, 107, 106);
+   
+}
+h1{
+    text-decoration: underline;
+    font-family: 'Caveat', serif;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.img{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    object-fit: cover;
+    height:60vh
+}
+#logo{
+    font-size: 80px;
+    line-height: 70px;
+    color:rgb(12, 5, 5);
+    text-align: center;
+    text-shadow: 2px 2px whitesmoke;
+    
+    
+    
+}
+#navOpt{
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    transition: all 0.3s;
+}
+.items:hover{
+    color: rgb(95, 19, 19);
+    padding-bottom: 10px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(48, 13, 202);
+}
+footer>a{
+    font-size: 1.78rem;
+}
+#db{
+    grid-column: 1/1;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#more{
+    display: none;
+}
+
+#more1{
+    display: none;
+}
+
+p{
+    font-size: 20px;
+    line-height: 32px;
+}
+p::first-letter{
+    font-size: 200%;
+    color: maroon;
+    font-family: 'Dancing SCript', serif;
+}
+#d2{
+    margin: 15%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align:center;
+    box-sizing:content-box;
+    height: fit-content;
+    border: double;
+    background-color: rgb(103, 107, 106);
+}
+#w::before{
+    content: "**";
+    font-size: 1.5rem;
+    color:red;
+    font-weight: bold;
+}
+
+#w::after{
+    content: "**";
+    font-size: 1.5rem;
+    color:red;
+    font-weight: bold;
+}
+#t{
+    color: rgb(197, 3, 3);
+}
+#h{
+    text-align: center;
+}
+#v{
+    color: rgb(43, 41, 41);
+    text-decoration: underline;
+
+}
+h2{
+    text-decoration: underline;
+}
+#d3{
+    margin: 15%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align:center;
+    box-sizing:content-box;
+    height: fit-content;
+    border: double;
+    background-color: rgb(103, 107, 106);
+}
+#f3{
+    text-align: center;
+}
