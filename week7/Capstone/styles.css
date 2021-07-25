@@ -51,7 +51,7 @@ h1{
     color:rgb(12, 5, 5);
     text-align: center;
     text-shadow: 2px 2px whitesmoke;
-    
+    padding-top: 150px;
     
     
 }
@@ -148,3 +148,30 @@ h2{
 #f3{
     text-align: center;
 }
+
+#ul{
+    margin: 30%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align:center;
+    box-sizing:content-box;
+    height: fit-content;
+    border: double;
+    background-color: rgb(103, 107, 106);
+}
+
+#table{
+    box-sizing:content-box;
+    border: double;
+    background-color: rgb(103, 107, 106);
+}
+
+#foot{
+    display: flexbox;
+
+  }
+  #foot >div{
+  background-color: rgb(103, 107, 106);
+  margin: 10px;
+  padding: 20px;
+  }
